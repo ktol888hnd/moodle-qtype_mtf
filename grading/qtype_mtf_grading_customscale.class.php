@@ -60,4 +60,3 @@ class qtype_mtf_grading_customscale extends qtype_mtf_grading {
         return 1.0 * $correctrows / $totalrows;
     }
 }
-
