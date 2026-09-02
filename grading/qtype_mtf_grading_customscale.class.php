@@ -1,8 +1,15 @@
 <?php
 /**
- * Provides grading functionality for custom scale scoring method
+ * Provides grading functionality for custom scale scoring method.
+ *
+ * 0/4 = 0%
+ * 1/4 = 10%
+ * 2/4 = 25%
+ * 3/4 = 50%
+ * 4/4 = 100%
+ *
  * @author      Nguyen Duy Hung (ktol888hnd@gmail.com)
- * @package     qtype_mtf_customscale
+ * @package     qtype_mtf
  * @copyright   2026 NDHv {@link nguyenduyhung.io.vn/}
  * @license     http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
@@ -63,7 +70,8 @@ class qtype_mtf_grading_customscale extends qtype_mtf_grading {
 
             return $scale[$correctrows];
         }
-
+        // Custom scale is defined only for 4-row questions.
+        // Other question sizes fall back to proportional grading.
         return 1.0 * $correctrows / $totalrows;
     }
 }
