@@ -96,3 +96,4 @@ $string['shuffleanswers_help'] = 'If enabled, the order of the options is random
 $string['stem'] = 'Stem';
 $string['tasktitle'] = 'Task title';
 $string['true'] = 'Correct';
+$string['scoringcustomscale'] = 'Custom scale (10%, 25%, 50%, 100%)';
