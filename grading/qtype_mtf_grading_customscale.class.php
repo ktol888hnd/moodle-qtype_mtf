@@ -8,7 +8,7 @@ require_once(
 
 class qtype_mtf_grading_customscale extends qtype_mtf_grading {
 
-    /** @var string */
+    /** @var string TYPE */
     const TYPE = 'customscale';
 
     public function get_name() {
