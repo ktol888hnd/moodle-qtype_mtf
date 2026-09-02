@@ -237,9 +237,10 @@ final class questiontype_test extends \advanced_testcase {
     
         $question->options->scoringmethod = 'customscale';
     
-        $this->assertEquals(
+        $this->assertEqualsWithDelta(
             0.30625,
-            $this->qtype->get_random_guess_score($question)
+            $this->qtype->get_random_guess_score($question),
+            0.00001
         );
     }
 
@@ -379,4 +380,5 @@ final class questiontype_test extends \advanced_testcase {
         $options = $question->options;
         $this->assertEquals($question->id, $options->questionid);
     }
+
 }
