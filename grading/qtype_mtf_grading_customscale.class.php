@@ -1,4 +1,11 @@
 <?php
+/**
+ * Provides grading functionality for custom scale scoring method
+ * @author      Nguyen Duy Hung (ktol888hnd@gmail.com)
+ * @package     qtype_mtf_customscale
+ * @copyright   2026 NDHv {@link nguyenduyhung.io.vn/}
+ * @license     http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ */
 defined('MOODLE_INTERNAL') || die();
 
 require_once(
