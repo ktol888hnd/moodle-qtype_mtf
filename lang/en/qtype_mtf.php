@@ -97,3 +97,4 @@ $string['stem'] = 'Stem';
 $string['tasktitle'] = 'Task title';
 $string['true'] = 'Correct';
 $string['scoringcustomscale'] = 'Custom scale (10%, 25%, 50%, 100%)';
+$string['scoringcustomscale_help'] = '0 correct = 0%, 1 correct = 10%, 2 correct = 25%, 3 correct = 50%, 4 correct = 100%';
