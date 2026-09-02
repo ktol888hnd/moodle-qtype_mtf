@@ -599,7 +599,7 @@ class qtype_mtf extends question_type {
         } else {
             return 0.00;
         }
-
+    }
     /**
      * (non-PHPdoc).
      * @see question_type::get_possible_responses()
